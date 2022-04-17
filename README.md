@@ -6,9 +6,9 @@ If you export an object as a module, the value of exported object is unchanged r
 
 ## Quizz
 
-Given we have two files: `car.js` and `index.js`
+Given we have two files: [car.js](./car.js) and [index.js](./index.js)
 
-car.js
+[car.js](./car.js)
 
 ```js
 let car = {};
@@ -22,7 +22,7 @@ new Promise((resolve) => setTimeout(resolve, 100)).then(() => {
 module.exports = car;
 ```
 
-index.js
+[index.js](./index.js)
 
 ```js
 const car = require("./car");
@@ -37,7 +37,7 @@ If you run `node index.js`, you will see:
 $ My car information: {}
 ```
 
-Can you modify `car.js` to make running `node index.js` to log as following?
+Can you modify [car.js](./car.js) to make running `node index.js` to log as following?
 
 ```terminal
 $ My car information: { model: 'Tesla', color: 'black', year: '2020' }

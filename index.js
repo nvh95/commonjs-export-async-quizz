@@ -1,3 +1,5 @@
-new Promise((resolve) => setTimeout(resolve, 1000)).then(() => {
-  console.log(object); // Should log {a: 1, b: 2, c: 3}
+const car = require("./car");
+
+new Promise((resolve) => setTimeout(resolve, 100)).then(() => {
+  console.log("My car information:", car); // Should log { model: 'Tesla', color: 'black', year: '2020' }, but it logs {}
 });

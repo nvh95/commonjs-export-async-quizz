@@ -42,3 +42,7 @@ Can you modify [car.js](./car.js) to make running `node index.js` to log as foll
 ```terminal
 $ My car information: { model: 'Tesla', color: 'black', year: '2020' }
 ```
+
+## Online link
+
+Use can use solve this quizz directly on your browser using [this Stackblitz](https://stackblitz.com/edit/node-il14gh?file=car.js)
